@@ -8,5 +8,5 @@ ADD . /build/
 WORKDIR /build
 RUN go build
 
-EXPOSE 5000
+EXPOSE 5005
 CMD ["/build/customer-service"]
