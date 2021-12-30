@@ -1,6 +1,4 @@
-ARG GO_VERSION=1.16
-FROM golang:${GO_VERSION}-alpine AS builder
-MAINTAINER Filipe Torqueto
+FROM golang:1.16-alpine AS builder
 
 ENV PROFILE=release
 ENV APP_PORT=5005
